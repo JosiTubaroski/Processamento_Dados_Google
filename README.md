@@ -57,4 +57,25 @@ Construir um pipeline para processar dados de IoT em grande escala utilizando fe
     - Uma tabela particionada por data é usada para otimizar o desempenho e os custos.
 
  <img src="https://github.com/JosiTubaroski/Processamento_Dados_Google/blob/main/img/17_Consulta_BigQuery.png">
+
+ 5. Detecção de Anomalias com Vertex AI
+    - Um modelo de Machine Learning treinado no Vertex AI identifica anomalias nos dados, como vibrações excessivas ou quedas súbitas na produção de energia.
+    - O modelo é implantado como um endpoint para inferência em tempo real.
+
+ 6. Visualização com Looker Studio
+    -  O Looker Studio é conectado ao BigQuery para criar dashboards interativos.
+    -  Exemplos de visualizações:
+       - Gráfico de linha mostrando a produção de energia ao longo do tempo.
+       - Heatmap indicando turbinas com maiores taxas de vibração.
+       - Alertas em tempo real para valores anômalos.
+
+   ## Benefícios:
+
+   1. Escalabilidade: O pipeline pode lidar com milhões de eventos por segundo, garantindo alta disponibilidade.
+   2. Análise em Tempo Real: Com o Dataflow, as anomalias são detectadas quase instantaneamente.
+   3. Armazenamento Otimizado: BigQuery permite análises rápidas e econômicas de grandes volumes de dados.
+   4. Insights Acionáveis: Vertex AI identifica problemas antes que eles causem falhas graves.
+   5. Visualizações Interativas: O Looker Studio fornece dashboards claros e acessíveis para a equipe.
+
+Essa abordagem mostra como o Google Cloud pode ser utilizado para processar grandes volumes de dados de Big Data de forma eficiente e em tempo real.
       
