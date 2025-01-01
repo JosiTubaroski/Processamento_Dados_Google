@@ -40,3 +40,14 @@ Construir um pipeline para processar dados de IoT em grande escala utilizando fe
 
  <img src="https://github.com/JosiTubaroski/Processamento_Dados_Google/blob/main/img/15_JSON_Cloud.png">
 
+2. Ingestão com Pub/Sub
+   - O Cloud IoT Core publica mensagens no Pub/Sub.
+   - O Pub/Sub atua como um canal de mensagens para lidar com grandes volumes de dados e distribuir para consumidores downstream.
+
+3. Processamento em Tempo Real com Dataflow
+   - Um job Apache Beam no Dataflow processa os dados em tempo real:
+     - Limpeza: Remove valores inválidos.
+     - Transformação: Converte unidades (por exemplo, de Fahrenheit para Celsius).
+     - Agregação: Calcula médias móveis, máximos e mínimos.
+    
+ <img src="https://github.com/JosiTubaroski/Processamento_Dados_Google/blob/main/img/16_Pip_Python.png">
