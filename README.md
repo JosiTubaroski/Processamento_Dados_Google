@@ -38,3 +38,5 @@ Construir um pipeline para processar dados de IoT em grande escala utilizando fe
    - As turbinas enviam dados para o Cloud IoT Core via MQTT ou HTTP.
    - Cada dispositivo é autenticado usando chaves públicas/privadas.
 
+ <img src="https://github.com/JosiTubaroski/Processamento_Dados_Google/blob/main/img/15_JSON_Cloud.png">
+
