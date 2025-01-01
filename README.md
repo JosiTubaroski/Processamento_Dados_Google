@@ -51,3 +51,10 @@ Construir um pipeline para processar dados de IoT em grande escala utilizando fe
      - Agregação: Calcula médias móveis, máximos e mínimos.
     
  <img src="https://github.com/JosiTubaroski/Processamento_Dados_Google/blob/main/img/16_Pip_Python.png">
+
+ 4. Armazenamento em BigQuery
+    - Os dados processados são carregados no BigQuery para análises históricas.
+    - Uma tabela particionada por data é usada para otimizar o desempenho e os custos.
+
+ <img src="https://github.com/JosiTubaroski/Processamento_Dados_Google/blob/main/img/17_Consulta_BigQuery.png">
+      
